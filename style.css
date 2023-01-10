@@ -7,6 +7,9 @@
   --card-border-color: #0f0f0f;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--main-bg-color);
 }
@@ -230,4 +233,8 @@ p {
   border-top-width: 1px;
   border-top-style: solid;
   padding-top: 30px;
+}
+
+.tiny {
+  font-size: 13px;
 }

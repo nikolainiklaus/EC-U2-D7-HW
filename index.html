@@ -55,8 +55,21 @@
         </div>
       </nav>
 
-      <h1 id="favorite">Favorite albums</h1>
-      <div class="row">
+      <h1 id="favorite">
+        Favorite<span class="tiny"
+          ><a
+            data-toggle="collapse"
+            href="#collapseExample"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            collapse
+          </a></span
+        >
+      </h1>
+
+      <div class="row" id="collapseExample">
         <div class="card col-sm-6 col-md-4 col-lg-3">
           <img class="cover-img" src="/img/colplay.png" alt="coldplay" />
           <div class="card-details">
@@ -66,7 +79,7 @@
           </div>
         </div>
         <div class="card col-sm-6 col-md-4 col-lg-3">
-          <img class="cover-img" src="/img/colplay.png" alt="coldplay" />
+          <img class="cover-img" src="/img/img1.png" alt="coldplay" />
           <div class="card-details">
             <p class="title">Group Therapy 510</p>
             <p class="artist">Coldplay</p>
@@ -124,47 +137,73 @@
       </div>
       <div class="row">
         <div class="review col-sm-12">
-          <h1 id="review">Review</h1>
-          <img class="review-img" src="/img/colplay.png" alt="coldplay" />
-          <div class="card-details">
-            <p class="title">Group Therapy 510</p>
-            <p class="artist">Coldplay</p>
-            <p class="genre"><span>Hiphop</span><span> • </span>2m 30s</p>
+          <h1 id="review">
+            Review<span class="tiny"
+              ><a
+                data-toggle="collapse"
+                href="#reviewsection"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                collapse
+              </a></span
+            >
+          </h1>
+          <div id="reviewsection">
+            <img class="review-img" src="/img/colplay.png" alt="coldplay" />
+            <div class="card-details">
+              <p class="title">Group Therapy 510</p>
+              <p class="artist">Coldplay</p>
+              <p class="genre"><span>Hiphop</span><span> • </span>2m 30s</p>
+            </div>
+            <table class="table table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Band</th>
+                  <th scope="col">Duration</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Paradise</td>
+                  <td>Coldplay</td>
+                  <td>3m 40s</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Paradise</td>
+                  <td>Coldplay</td>
+                  <td>3m 40s</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Paradise</td>
+                  <td>Coldplay</td>
+                  <td>3m 40s</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <table class="table table-dark">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Title</th>
-                <th scope="col">Band</th>
-                <th scope="col">Duration</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Paradise</td>
-                <td>Coldplay</td>
-                <td>3m 40s</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Paradise</td>
-                <td>Coldplay</td>
-                <td>3m 40s</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Paradise</td>
-                <td>Coldplay</td>
-                <td>3m 40s</td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       </div>
-      <h1 id="hall">Hall of Shame</h1>
-      <div class="row">
+      <h1 id="hall">
+        Hall of Shame<span class="tiny"
+          ><a
+            data-toggle="collapse"
+            href="#hallsection"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            collapse
+          </a></span
+        >
+      </h1>
+      <div class="row" id="hallsection">
         <div class="card col-sm-6 col-md-4 col-lg-3">
           <img class="cover-img" src="/img/colplay.png" alt="coldplay" />
           <div class="card-details">
