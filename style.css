@@ -319,3 +319,25 @@ tr:hover .delete-btn {
   display: block;
   opacity: 1;
 }
+
+.modal-content {
+  background-color: black;
+}
+
+.form-control {
+  background-color: black;
+}
+
+.input-group-text {
+  background-color: black;
+}
+
+.modal-content {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.form-control:focus {
+  background-color: black;
+}
